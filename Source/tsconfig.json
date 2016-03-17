@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "out": "../Out/js/CTDraw.js"
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./_tsDefinitions/jquery.d.ts",
+        "./_tsDefinitions/snapsvg.d.ts",
+        "./_tsDefinitions/webcomponents.js.d.ts",
+        "./Board/board.ts",
+        "./global.ts",
+        "./Menu/toolbox.ts",
+        "./Pages/mainPage.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

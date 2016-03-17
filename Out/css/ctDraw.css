@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
+svg {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ece8e6;
+}
+board-toolbox {
+  font-size: 16px;
+}
+board-toolbox .toggle {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2vh 2vw;
+  margin: 0;
+  color: white;
+  cursor: pointer;
+}
+board-toolbox .toggle.open {
+  right: 10vw;
+}
+board-toolbox .container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 10vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: auto;
+}
+board-toolbox .container p {
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+  margin: 0;
+  padding: 3vh 0;
+}
